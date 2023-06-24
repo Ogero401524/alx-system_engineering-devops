@@ -1,1 +1,1 @@
-shel permi0tion 
+change the ower of a file
