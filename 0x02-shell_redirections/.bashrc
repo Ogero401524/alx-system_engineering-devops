@@ -1,5 +1,5 @@
 nw(){
-    if [ -e $1]
+    if [ -e $1 ]
     then
 	echo "it ecist"
     else
