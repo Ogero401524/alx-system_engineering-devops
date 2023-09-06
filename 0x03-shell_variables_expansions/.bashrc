@@ -1,4 +1,4 @@
-new(){
+w(){
     if [ -e $1 ]
     then
 	echo "the girle exist"
