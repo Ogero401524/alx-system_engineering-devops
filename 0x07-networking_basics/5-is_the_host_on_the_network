@@ -5,7 +5,7 @@
 if [ -z "$1" ]; then
    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
    exit 1
+else
+    ab = $1
+    ping -c 5 $ab
 fi
-
-argument = $1
-ping -c 5 "$argument"
