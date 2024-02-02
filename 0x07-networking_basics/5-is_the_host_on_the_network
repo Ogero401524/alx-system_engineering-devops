@@ -3,7 +3,7 @@
 #ping using option -c count among i, t, ,s.
 #Here we testting network speed refrencing google port 8.8.8.8
 if [ -z "$1" ]; then
-   echo "Usage: 5-is_the_host_on_the_network 8.8.8.8"
+   echo "Usage: $0 {IP_ADDRESS}"
    exit 1
 fi
 #arfument
