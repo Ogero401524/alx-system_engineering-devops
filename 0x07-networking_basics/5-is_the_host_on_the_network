@@ -2,9 +2,9 @@
 #Bash script that pings an IP address passed as an argument.
 #ping using option -c count among i, t, ,s.
 #Here we testting network speed refrencing google port 8.8.8.8
-if [[ $ip_address =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]
+if [[ $1 =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]
 then
-    ping -c 5 "$ip_address"
+    ping -c 5 "$1"
 else
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
-    fi
+fi
