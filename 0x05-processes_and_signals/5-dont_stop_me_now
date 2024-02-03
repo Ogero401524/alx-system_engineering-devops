@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Bash script that stops 4-to_infinity_and_beyond process using kil
-kill $$
+kill -9 $$
 while true; do
     echo "To infinity and beyond"
     sleep 2
